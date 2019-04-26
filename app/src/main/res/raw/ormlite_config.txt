@@ -1,0 +1,32 @@
+#
+# generated on 2017/01/09 10:05:39
+#
+# --table-start--
+dataClass=com.oriana.moroccan.bdarija.model.Item
+tableName=item
+# --table-fields-start--
+# --field-start--
+fieldName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=description
+# --field-end--
+# --field-start--
+fieldName=dateCreated
+# --field-end--
+# --field-start--
+fieldName=type
+# --field-end--
+# --field-start--
+fieldName=seen
+# --field-end--
+# --field-start--
+fieldName=like
+# --field-end--
+# --field-start--
+fieldName=dbId
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################

@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">18 بالدارجــة</string>
+
+
+    <string name="action_settings">
+        إعدادات
+    </string>
+    <string name="histories">
+         قصص مطولة
+    </string>
+    <string name="jokes">
+        نكت
+
+    </string>
+    <string name="problems">عندي مشكل</string>
+    <string name="experiences">وقعات ليا</string>
+
+    <string name="share">
+        برطاجي التطبيق
+    </string>
+    <string name="all">مرحبا بــكم</string>
+    <string name="contact"> إتصل بنا </string>
+   <string name="crash_toast_text">مشكل في التطبيق</string>
+    <!-- Example General settings -->
+     <string name="texthint">اش تتعاود ...</string>
+    <string name="tooShort">نص قصير بزاف</string>
+    <string name="favs">المفضلات</string>
+    <string name="share_string">هاد التطبيق عامر قصص و نكت  مكاين غا +18   :https://goo.gl/YKb9LJ</string>
+    <string name="sender_title">عن التطبيق</string>
+    <string name="our_mail">hanksone420@gmail.com</string>
+    <string name="stats">شفتي
+        <b> %2$s  </b>
+         من أصل
+        <b> %1$s </b>  </string>
+    <string name="search">بحث</string>
+
+    <!-- -
+        This is an ad unit ID for a banner test ad. Replace with your own banner ad unit id.
+        For more information, see https://support.google.com/admob/answer/3052638
+    <!- -->
+    <string name="banner_ad_unit_content" >ca-app-pub-3577536631986182/2396495411</string>
+    <string name="banner_ad_unit_main">ca-app-pub-3577536631986182/6120118008</string>
+    <string name="navigation_drawer_open" />
+    <string name="navigation_drawer_close" />
+    <string name="server">http://oriana2017.atwebpages.com/item.php</string>
+    <string name="newquote">نكتة جديدة</string>
+</resources>

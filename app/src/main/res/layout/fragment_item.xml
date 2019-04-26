@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"  >
+
+        <com.oriana.moroccan.bdarija.helpers.ArabTv
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/text_margin"
+            android:layout_marginRight="@dimen/text_margin"
+            android:layout_marginLeft="@dimen/text_margin"
+            android:maxLines="3"
+            android:textColor="@color/colorPrimaryTextDark"
+            android:textAppearance="?attr/textAppearanceListItem" />
+        <TextView
+            android:id="@+id/tvMore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/text_margin"
+         android:text="... تتمة"
+            android:visibility="gone"
+            android:maxLines="1"
+            android:textColor="@color/colorPrimaryLite"
+            android:textAppearance="?attr/textAppearanceListItem" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha="0.5" >
+
+            <TextView
+                android:id="@+id/id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/text_margin"
+                android:textAppearance="?attr/textAppearanceListItem"
+                android:textSize="10sp"
+                android:text="haha"
+                android:gravity="right"
+                android:textColor="@color/colorPrimaryTextLite" />
+            <TextView
+                android:id="@+id/tv_been"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/text_margin"
+                android:text=" 23 jours"
+                android:textAppearance="?attr/textAppearanceListItem"
+
+                android:gravity="left"
+                android:textSize="10sp"
+                android:textColor="@color/colorPrimaryTextLite" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

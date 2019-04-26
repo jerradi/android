@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:icon="?android:attr/listChoiceIndicatorMultiple"
+            android:checked="true"
+            android:title="@string/all" />
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_histoire"
+            android:title="@string/histories" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_exp"
+            android:title="@string/experiences" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_jok"
+            android:title="@string/jokes"
+
+            android:titleCondensed="hhhhhhhhh"
+
+            />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_prob"
+            android:title="@string/problems" />
+        <item
+            android:id="@+id/favs"
+            android:icon="@drawable/ic_favorite"
+            android:title="@string/favs" />
+        <item android:title="">
+            <menu>
+                <item
+                    android:id="@+id/nav_share"
+                    android:icon="@drawable/ic_menu_share"
+                    android:title="@string/share" />
+                <item
+                    android:id="@+id/nav_send"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="@string/contact" />
+            </menu>
+        </item>
+    </group>
+
+
+
+</menu>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:name="com.mytv.dc.myapplicationw.ItemFragment"
+    tools:context="com.oriana.moroccan.bdarija.ItemFragment"
+    android:background="@color/colorSecondaryLite"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+<android.support.v7.widget.RecyclerView
+    android:id="@+id/list"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="6dp"
+    android:layout_marginRight="6dp"
+
+    app:layoutManager="LinearLayoutManager"
+
+    tools:listitem="@layout/fragment_item" >
+
+
+</android.support.v7.widget.RecyclerView>
+
+    <TextView
+        android:id="@+id/tvCounter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorPrimaryLite"
+        android:text="TextView"
+        android:textColor="@color/colorAccent" />
+</RelativeLayout>
